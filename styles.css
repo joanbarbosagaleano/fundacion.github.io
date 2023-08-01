@@ -1,0 +1,408 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+   
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+header{
+    display: flex;
+    margin: 0 auto; 
+   flex-wrap: wrap;
+}
+.nav1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+
+}
+.logotipo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height:400px;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    
+   
+}
+/*encabezado*/
+.titulo{
+    color: antiquewhite;
+    justify-content: center;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:x-large;
+    
+}
+
+.container{
+    width: 100%;
+  
+}
+.fondo{
+    --opacidad-negro:0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), 
+    rgba(0, 0, 0, var(--opacidad-negro))),url('Fcomparsa.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.titulo2{
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen{
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 300px;
+}
+.parrafo{
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    height: 280px;
+    color: antiquewhite;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.barra{
+    background-color: rgb(252, 182, 98);
+    display: flex;
+    align-items: flex-start;
+    margin-top: -50px;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    box-shadow: 0 2px 10px 0 rgba(2, 2, 2, 0.514);
+
+}
+
+.btext{
+    padding: 5px;
+    margin: 15px;
+}
+.letra{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+
+}
+.ok{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    margin-top: -30px;
+
+}
+.descrip{
+    display: flex;
+    flex-wrap: wrap;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(252, 247, 241);
+    width: auto;
+    max-height: 10000px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+.text{
+    display: inline-block;
+    text-align:left;
+   
+}
+.foto{
+    margin-left: 100px;
+    padding: 10px;
+    
+}
+.content{
+    height: 350px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(23, 24, 23, 0.568);
+    border-radius: 5px;
+   
+}
+.columna8{
+   
+    color: #0a0901;
+    padding: 10px;
+    width: 48%;
+    margin: 5px; /*separar los textos*/
+    display: flex;
+    flex-wrap: wrap;
+    /*border-style: double;*/
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.columna9{
+    
+    padding: 10px;
+    width: 45%;
+    margin: 10px; /*separar los textos*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    
+}
+.padre-table{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(223, 224, 228, 0.5),rgba(223,228,228,0.50)), 
+    url('iglesia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* comienzo de edicion de la tabla*/
+.content-table{
+    border-radius: 7px;
+    border-collapse: separate;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(23, 24, 23, 0.568);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    align-content: center;
+    height: 700px;
+    width: 70%;   
+}
+.content-table thead tr{
+    background-image: url("pañoleta.jpeg");
+    background-color:#980081;
+    color: #ffffff;
+    text-align: middle;
+    
+    
+}
+.content-table th, .content-table td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #b49191; 
+   
+}
+.content-table tbody tr { 
+    border-bottom: 1px solid #a88b8b; 
+    background-color: #f7e4c19d; 
+} 
+.content-table tbody tr:nth-of-type(even) { 
+    background-color: #f3f3f391; 
+    
+} 
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4b4e4e; 
+    
+}
+.title{
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    width: 35%;
+}
+.columna-copla{
+    color: #0a0901;
+    padding: 20px;
+    width: 40%;
+    margin: 10px; /*separar los textos*/
+    display: inline-block;
+    /*border-style: double;*/
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 1.0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+   
+}
+.columna-video{
+    
+    padding: 20px;
+    width: 40%;
+    margin: 2px; /*separar los textos*/
+    display: inline-block;
+    margin-top: 35px;
+}
+.padre-video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(252, 247, 241);
+    display: block;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: auto;
+    max-height: 10000px;
+    padding: 10px;
+    border-radius: 10px; 
+}
+.wpb{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 6px;
+    background: #fc7e00;
+    border-radius: 3px;
+    margin-left: 100px;
+}
+.padre-footer{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(252, 175, 81);
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px; 
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    box-shadow: 0 5px 20px 0 rgba(2, 2, 2, 0.514);
+   
+}
+
+/*
+.redes{
+    height: 60px;
+    width: 60px;
+    margin-left:auto;
+    margin-top: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: var(--color);
+    font-size: 27px !important;
+    display: block;
+    flex-shrink: 0;
+    left: 18px;
+    position: absolute;
+
+}
+.redes:hover{
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    transform: scale(1.15); 
+}
+*/
+.link{
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 99em;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform-origin: center left;
+    transition: width 0.2s ease-in;
+    text-decoration: none;
+    color: inherit;
+}
+.link::before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border-radius: 99em;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in;
+    transform-origin: center right;
+    background-color:var(--color);
+}
+.link:hover,.link:focus{
+    outline: 0;
+    width: 200px; 
+}
+.link:hover::before,
+.link:hover .link-tittle{
+    transform: translateX(0%);
+}
+.link-icon{
+    
+    color: var(--color);
+    width: 50px;
+    height: 50px;
+    font-size: 40px !important;
+    display: block;
+    flex-shrink: 0;
+    left: 18px;
+    position: absolute;
+}
+.link-icon:hover{
+    filter: grayscale(100%);
+}
+.link-tittle{
+    color: rgb(255, 255, 255);
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in;
+    display: block;
+    text-align: center;
+    text-indent: 40px;
+    width: 100%;
+    font-size:x-large;
+}
+.insta {
+   
+    color: transparent;  
+    
+    
+  }
+.insta:hover{
+    background: linear-gradient(#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+    color: transparent;  
+    -webkit-background-clip:border-box
+}
